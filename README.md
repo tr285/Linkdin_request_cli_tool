@@ -22,25 +22,32 @@
 
 ---
 
-## 🚀 Quick Start
-
-### 1. Install
-
-```bash
 # Clone the repository
 git clone https://github.com/tr285/Linkdin_request_cli_tool.git
-cd Linkdin_request_cli_tool.git
 
-# Create a virtual environment (Python 3.12+)
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
+# Enter the project
+cd Linkdin_request_cli_tool
 
-# Install liai
+# Create a virtual environment
+python3 -m venv .venv
+
+# Activate it
+source .venv/bin/activate
+
+# Upgrade pip
+python -m pip install --upgrade pip
+
+# Install the project
 pip install -e .
 
-# Install Playwright browser
-playwright install chromium
-```
+# Install Playwright
+pip install playwright
+
+# Download Chromium
+python -m playwright install chromium
+
+# Verify the CLI
+liai --help
 
 ### 2. Configure
 
