@@ -28,7 +28,7 @@
 
 ```bash
 # Clone the repository
-https://github.com/tr285/Linkdin_request_cli_tool.git
+git clone https://github.com/tr285/Linkdin_request_cli_tool.git
 cd Linkdin_request_cli_tool.git
 
 # Create a virtual environment (Python 3.12+)
