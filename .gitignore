@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment
+.env
+!.env.example
+
+# liai runtime files
+database/*.db
+cache/*.json
+logs/
+.liai_session.json
+
+# Reports (keep directory)
+reports/*.csv
+reports/*.xlsx
+reports/*.json
+reports/*.html
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Distribution
+dist/
+build/
