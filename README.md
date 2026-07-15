@@ -28,7 +28,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/linkedin-ai-cli
+git clone https://github.com/tr285/linkedin-ai-cli
 cd linkedin-ai-cli
 
 # Create a virtual environment (Python 3.12+)
