@@ -28,7 +28,7 @@ class BrowserManager:
         self,
         cookies_path: str | Path = ".liai_session.json",
         headless: bool = False,
-        slow_mo: int = 500,
+        slow_mo: int = 50,  # Reduced from 500 — was the main cause of slow login
     ) -> None:
         self.cookies_path = Path(cookies_path)
         self.headless = headless
