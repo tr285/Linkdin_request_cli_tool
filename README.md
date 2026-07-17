@@ -1,3 +1,4 @@
+this is project for linkdin serch network
 # liai — LinkedIn AI Networking Assistant
 
 > **AI-powered CLI to find relevant professionals, analyse profiles, generate personalised connection notes, and organise your outreach — without ever sending automated requests.**
